@@ -1,3 +1,58 @@
-h1 {
-  color: red;
+.navbar {
+  display: flex;
+  background: #FFC5E7;
+  margin-bottom: 30px;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #FFFFFF;
+}
+
+.link:hover {
+  color: #AA7694;
+}
+
+.main {
+	text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.musicvideo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+i {
+	color: #AA7694;
+}
+
+.fas {
+	padding-right: 8px;
+}
+
+.navbar-nav {
+  flex-direction: row!important;
+}
+
+footer {
+  display: flex;
+  height: 30px;
+  align-content: center;
+  justify-content: space-around;
+  background-color: #FFC5E7;
+}
+
+.foot, .drop {
+  color: #AA7694;
+}
+
+.foot:hover {
+  color: #FFF;
+}
+
+.drop:hover {
+  color: #AA7694;
 }
